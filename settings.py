@@ -1,0 +1,4 @@
+app_id = '51543162'
+token = 'vk1.a.GrxGsV8OF3UzGmwA8WyaJtJuDMjnTElDYE1XZhHEJq-qwunlnn87s7ialxPlbaCuXfsFbA8PgoqpJpbg47ZmuPellByesJtW4ze9llP6Ta4pBqxW0BptlWPR7AtcHMaNwX9cEoyYoxfoQxnuaPZUcdtD7noWlC1ZJw9Fx0HKoSeMZCfGMjaf53W8NmxXWwHP2cYHkLe0LLZJFYG8AjJsdA'
+id = '213358442'
+

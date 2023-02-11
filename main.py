@@ -39,7 +39,7 @@ class VKontakte:
         #self.list_of_likes.append(0)
         #self.list_of_likes.reverse()
         pprint(self.list_of_likes)
-
+J
     def get_correct_names(self):
         for a in self.dict_of_photos:
             for b in range(len(self.list_of_likes)):

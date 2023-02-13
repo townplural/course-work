@@ -38,6 +38,7 @@ class VKontakte:
                 dict_of_photo_info['response']['items'][i]['likes']['count']
             self.dict_of_dates[dict_of_photo_info['response']['items'][i]['sizes'][-1]['url']] = \
                 dict_of_photo_info['response']['items'][i]['date']
+        pprint("Фотографии получены")
 
     def get_correct_names(self):
 
@@ -67,7 +68,7 @@ class VKontakte:
                     self.dict_of_photos[a] = f"{dict[s]}, {d}"
                 else:
                     pass
-
+        pprint('Фотографиям присвоены корректные имена')
 
 class Yandex(VKontakte):
 

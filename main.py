@@ -51,26 +51,21 @@ class VKontakte:
                     pass
                 if q > 1:
                     self.list_of_repeats.append(z)
-                else:
-                    pass
         dict = {}
         for w in self.dict_of_dates:
             for e in self.list_of_repeats:
                 if w == e:
                     dict[w] = self.dict_of_dates[w]
-                else:
-                    pass
 
         for a in self.dict_of_photos:
             for s in dict:
                 if a == s:
                     d = self.dict_of_photos[a]
                     self.dict_of_photos[a] = f"{dict[s]}, {d}"
-                else:
-                    pass
         pprint('Фотографиям присвоены корректные имена')
 
-class Yandex(VKontakte):
+
+class Yandex():
 
     """
     1) Передача Токена
